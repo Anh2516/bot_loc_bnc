@@ -1,0 +1,13 @@
+# Thu vien can thiet cho Bot loc coin SHORT F1-F6
+# Cai dat: pip install -r requirements.txt
+# Yeu cau: Python >= 3.10 (da test tren 3.12.10)
+
+# Goi REST API Binance Futures + Telegram Bot API (BAT BUOC)
+requests>=2.31.0
+
+# Doc file PDF tieu chi (chi can cho extract_pdf.py, khong can de chay bot)
+pypdf>=4.0.0
+
+# Ghi chu: cac module con lai deu la thu vien chuan cua Python, khong can cai:
+#   logging, json, csv, time, datetime, pathlib, threading, argparse,
+#   html, typing, tempfile, sys, zoneinfo, concurrent.futures

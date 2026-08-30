@@ -1,0 +1,43 @@
+# --- Bi mat: KHONG BAO GIO commit token ---
+.env
+config_local.py
+
+# --- File trang thai runtime ---
+telegram_sent.json          # cooldown moi coin
+telegram_subscribers.json   # danh sach chat_id da /start
+bot.log
+*.log
+
+# --- Ket qua quet ---
+signals/
+*.csv
+
+# --- File tam khi test ---
+live.txt
+live_err.txt
+prev.txt
+scan.txt
+t.txt
+tc.txt
+final.txt
+sym.txt
+o.txt
+loop*.txt
+pdf_text.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
